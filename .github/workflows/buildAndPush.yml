@@ -20,22 +20,14 @@ jobs:
         uses: dante-ev/latex-action@master
         with:
           root_file: main.tex
-#      - name: Upload artifact
-#        uses: actions/upload-artifact@v2
-#        with:
-#          name: CV_Lorenzo
-#          path: main.pdf
-      - name: Semantic Releaser
-        uses: brpaz/action-semantic-release@v1
-
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
+          tag_name: ${{ GITHUB_RUN_NUMBER }}
+          release_name: Release ${{ GITHUB_RUN_NUMBER }}
           draft: false
           prerelease: false
     
