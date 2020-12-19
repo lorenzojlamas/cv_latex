@@ -25,7 +25,9 @@ jobs:
 #        with:
 #          name: CV_Lorenzo
 #          path: main.pdf
-          
+      - name: Semantic Releaser
+        uses: brpaz/action-semantic-release@v1
+
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
