@@ -2,46 +2,39 @@
 \moderncvstyle{classic}
 \moderncvcolor{black}
 \usepackage[utf8]{inputenc}
-\usepackage[spanish,es-lcroman, activeacute]{babel} %Espaolizacion
+\usepackage[spanish,es-lcroman, activeacute]{babel} 
 
-% ajustes para los margenes de pagina
+
 \usepackage[scale=0.76]{geometry}
-%\setlength{\hintscolumnwidth}{3cm}           % si desea cambiar el ando de la columna para las fechas
-
-% datos personales
+\setlength{\hintscolumnwidth}{3cm}
 \firstname{Lorenzo José}
-\familyname{Lamas}
-%\title{T\'itulo del CV (opcional)}                   % dato opcional, elimine la linea si no desea el dato
-%\address{}{Capital Federal} % dato opcional, elimine la linea si no desea el dato
-%\mobile{11-6732-9727}                            % dato opcional, elimine la linea si no desea el dato
-%\phone{+2~(345)~678~901}                             % dato opcional, elimine la linea si no desea el dato
-%\fax{+3~(456)~789~012}                               % dato opcional, elimine la linea si no desea el dato
-\email{lorenzojlamas@gmail.com}                       % dato opcional, elimine la linea si no desea el dato
-\homepage{https://www.linkedin.com/in/lorenzojlamas/}                           % dato opcional, elimine la linea si no desea el dato
-\extrainfo{CABA, Argentina}                    % dato opcional, elimine la linea si no desea el dato
-\photo[80pt][0.4pt]{IMG_9808.jpeg}                         % '64pt' es la altura a la que la imagen debe ser ajustada, 0.4pt es grosor del marco que lo contiene (eliga 0pt para eliminar el marco) y 'picture' es el nombre del archivo; dato opcional, elimine la linea si no desea el dato
-%\quote{Alguna cita (opcional)}                       % dato opcional, elimine la linea si no desea el dato
-
-% para mostrar etiquetas numericas en la bibliografia (por omision no se muestran etiquetas), solo es util si desea incluir citas en en CV
-%\makeatletter
-%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
-%\makeatother
-
-% bibliografia con varias fuentes
-%\usepackage{multibib}
-%\newcites{book,misc}{{Libros},{Otros}}
+\lastname{Lamas}
+\title{Tech Manager}
+\email{lorenzojlamas@gmail.com}
+\homepage{https://www.linkedin.com/in/lorenzojlamas/}
+\extrainfo{CABA, Argentina}
 %----------------------------------------------------------------------------------
 %            contenido
 %----------------------------------------------------------------------------------
 \begin{document}
 \maketitle
 \section{Resumen}
-Desarrollador NodeJs - Más de 5 años desarrollando soluciones punta a punta, los últimos dos y
-medio enfocado en proyectos de interfaces conversacionales (chatbots). Realicé I+D con pruebas de concepto orientadas a reconocimiento facial, modelos de predicción y scraping
-para generar noticias. En mi primera experiencia trabajé en automatismo industrial, participando en el diseño y desarrollo de sistemas SCADA, programando PLCs y HMIs en proyectos como la planta piloto de Biosima y la actualización de la linea de producción de Gancia.
+
+Tech Manager. 7 años de experiencia desarrollando soluciones de punta a punta. Recientemente especializado en escalar soluciones no code.
+En los últimos años ejercí roles de liderazgo, desde el mentoreo y acompañamiento del plan de carrera del equipo, abarcando también gestión de stakeholders y participación en definiciones de producto (OKRS, Roadmaps, etc)
+Trabajé en el desarrollo de diversos chatbots, integración con CRMs, I+D
+
+\section{Hitos}
+Dentro de Properati (Olx - LifullConnect) trabajé en el diseño de soluciones tecnológicas para apuntalar la performance de una unidad de negocio de venta premium. Desarrollé distintas iniciativas tanto code como no code, en diferentes etapas del ciclo de vida del cliente.(Hubspot, Airtable, Zappier, Whatsapp, Wolkbox, etc)
+\\ \\
+Desde el equipo de Telefónica Argentina diseñé e implementé de principio a fin el bot de la empresa que funciona actualmente en Argentina y varios países de la región. Desde el equipo de desarrollo se trabajó en conjunto con un equipo de NLP para productivizar los modelos de inteligencia artificial.
 
 \section{Experiencia laboral}
-\cventry{04/2019--Actualidad}{Desarrollador Sr}{Grupo Telefonica Argentina}{}{}
+\cventry{02/2022--11/2022}{Tech Manager}{Properati Argentina - LifullConnect}{}{}
+{Tecnolog\'ias: \texttt{NodeJs, Express, Typescript, GCP, Firebase, docker (Kubernetes), Python, Postgres}}
+\cventry{02/2021--01/2022}{Tech Lead}{Properati Argentina - Grupo OLX}{}{}
+{Tecnolog\'ias: \texttt{NodeJs, Express, Typescript, GCP, Firebase, docker (Kubernetes), Python, Postgres}}
+\cventry{04/2019--01/2021}{Desarrollador Sr}{Grupo Telefonica Argentina}{}{}
 {Tecnolog\'ias: \texttt{NodeJs, Express, Chai, BotFramework, OpenApi, Azure, docker, AzureDevOps, Git, Python}}
 
 \cventry{03/2018--03/2019}{Desarrollador I+D}{Practia Global}{}{}
@@ -50,78 +43,29 @@ para generar noticias. En mi primera experiencia trabajé en automatismo industr
 \cventry{12/2013--02/2017}{Técnico de grupos electrógenos}{Aggreko Argentina}{}{}
 {Relevado, conexión, configuración de grupos electrógenos, durante emergencias y en plantas.}
 
-\cventry{06/2012--12/2013}{Técnico en automatismo industrial}{Practia Global}{}{}
+\cventry{06/2012--12/2013}{Técnico en automatismo industrial}{GM2Dev}{}{}
 { Desarrollo, fabricación y puesta en marcha de equipamiento de automatización industrial. Tecnolog\'ias: \texttt{PLC, HMI, Sistemas SCADA (Redes 232,485, ethernet), siemens, Delta}}
 
 
-\section{Habilidades técnicas}
-TypeScript, NodeJs, Python, Flask, Docker, Azure, Luis, BotFramework, AzureDeOps, git, TDD.
-
-\section{Habilidades blandas}
-Scrum, agile, liderazgo
-%\cventry{12/2000-â04/2002}{Analista Senior - Sistema de Integraci\'on TASA}{Accenture}{}{}{}
-
-%\cventry{12/2000-â04/2002}{Desarollador Junior}{Mohr y Caponeto Consultores}{}{}{Sistema de gesti\'on y administraci\'on gubernamental.\newline{} }
+\section{Habilidades }
+TypeScript, NodeJs, Python, Flask, Docker, GCP, Azure, BotFramework, AzureDeOps, git, TDD. Trunk base Development\\ 
+Scrum, agile, liderazgo, mentoreo
 \section{Idiomas}
-\cvitemwithcomment{Ingl\'es}{Upper Intermediate}{Compresi\'on oral y escrita.}
+\cvitemwithcomment{Ingl\'es}{Cursando B1}{}
 
 \section{Formaci\'on acad\'emica}
-\cventry{2016–2018 (incompleta)}{Licenciatura en Ciencias Matemáticas}{Facultad de Ciencia Exactas y Naturales - UBA}{}{\textit{Universitario}}{Materias aprobadas: Análisis Matemático y Análisis de datos}  % Los argumentos del 3 al 6 pueden permanecer vacios
+\cventry{2016–2018 (incompleta)}{Licenciatura en Ciencias Matemáticas}{Facultad de Ciencia Exactas y Naturales - UBA}{}{\textit{Universitario}}{Materias aprobadas: Análisis Matemático y Análisis de datos}
+\cventry{2015–2016}{CBC - Licenciatura en Ciencias Matemáticas}{Facultad de Ciencia Exactas y Naturales - UBA}{}{\textit{Universitario}}{}
+\cventry{2006--2012}{Técnico electrónico}{E.T. Nº28 D.E. 10 - República Francesa}{}{\textit{Secundario}}{}
 
-\cventry{2015–2016}{CBC - Licenciatura en Ciencias Matemáticas}{Facultad de Ciencia Exactas y Naturales - UBA}{}{\textit{Universitario}}{}  % Los argumentos del 3 al 6
-\cventry{2006--2012}{Técnico electrónico}{E.T. Nº28 D.E. 10 - República Francesa}{}{\textit{Secundario}}{}  % Los argumentos del 3 al 6 pueden permanecer vacios
 \section{Cursos y capacitaciones}
+\cvlistitem{ Construcción de Software Robusto con TDD - 10Pines (2022)}
+\cvlistitem{ Diseño Avanzado de Software con Objetos I - 10Pines (2022)}
+\cvlistitem{ Oyente en materia: Ingeniería de Software - UNTreF (2021)}
+\cvlistitem{ Oyente en materia: METODOLOGÍA DE LA CONDUCCIÓN DE EQUIPOS DE TRABAJO - UTN (2021)}
 \cvlistitem{Azure Fundamentals - Grupo Telefónica (2020)}
 \cvlistitem{Machine learning \& Data analytics - Grupo Telefonica (2019)}
 \cvlistitem{Primera Jornada de Capacitación en Herramientas TIC Aplicadas a la Enseñanza de la Física - UTN (2011)}
 \cvlistitem{Java - Nativos digitales (2011)}
 
-
-\section{Referencias laborales}
-\cvlistitem{Gustavo Pavia - gpavia@gmail.com - DevOps Engineer Sr. en Newtech.}
-\cvlistitem{Hernan Modrow - hmodrow@gmail.com - Lider en Telefónica. Proyecto Plataforma de Bots.}
-
-%\section{Conocimientos de computaci\'on}
-%\cvdoubleitem{categor\'ia 1}{XXX, YYY, ZZZ}{categor\'ia 4}{XXX, YYY, ZZZ}
-%\cvdoubleitem{categor\'ia 2}{XXX, YYY, ZZZ}{categor\'ia 5}{XXX, YYY, ZZZ}
-%\cvdoubleitem{categor\'ia 3}{XXX, YYY, ZZZ}{categor\'ia 6}{XXX, YYY, ZZZ}
-%
-%\section{Interests}
-%\cvitem{hobby 1}{Descripci\'on}
-%\cvitem{hobby 2}{Descripci\'on}
-%\cvitem{hobby 3}{Descripci\'on}
-%
-%\section{Extra 1}
-%\cvlistitem{Tema 1}
-%\cvlistitem{Tema 2}
-%\cvlistitem{Tema 3}
-%
-%\renewcommand{\listitemsymbol}{-~}            % para cambiar el simbolo para las listas
-%
-%\section{Extra 2}
-%\cvlistdoubleitem{Tema 1}{Tema 4}
-%\cvlistdoubleitem{Tema 2}{Tema 5\cite{book1}}
-%\cvlistdoubleitem{Tema 3}{}
-%
-%% Las publicaciones tomadas de un archivo de BibTeX sin usar multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
-%
-%\nocite{*}
-%\bibliographystyle{plain}
-%\bibliography{publications}                   % 'publications' es el nombre del archivo BibTeX
-
-% Las publicaciones tomadas de un archivo BibTeX usando el paquete multibib
-%\section{Publicaciones}
-%\nocitebook{book1,book2}
-%\bibliographystylebook{plain}
-%\bibliographybook{publications}              % 'publications' es el nombre del archivo BibTeX
-%\nocitemisc{misc1,misc2,misc3}
-%\bibliographystylemisc{plain}
-%\bibliographymisc{publications}              % 'publications' es el nombre del archivo BibTeX
-
-%\clearpage\end{CJK*}                          % si esta redactando su CV en chino usando CJK, \clearpage es requerido por fancyhdr para que funcione correctamente con CJK, aunque esto eliminara la numeracion de pagina al dejar \lastpage como no definido
 \end{document}
-
-
-%% fin del archivo `template-es.tex'.
-\end{document}
-
